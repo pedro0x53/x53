@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap');
+
+:root {
+	--off-black: #03091C;
+	--off-white: #FAFAFA;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+body { margin: 0; }
+
+#root {
+	background-color: var(--off-white);
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	/*overflow: hidden;*/
+}
+
+#root img {
+	max-width: 300pt;
+  	object-fit: contain;
+
+}
