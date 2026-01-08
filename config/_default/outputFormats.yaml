@@ -1,0 +1,5 @@
+searchIndex:
+  mediaType: application/json
+  baseName: index
+  isPlainText: true
+  notAlternative: true

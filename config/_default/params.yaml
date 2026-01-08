@@ -1,0 +1,135 @@
+logo: img/logo-2-off-black.png
+secondaryLogo: img/logo-2-off-white.png
+
+title: X53 Studio
+
+colorScheme: slate
+defaultAppearance: light
+
+autoSwitchAppearance: true
+enableA11y: false
+
+enableCodeCopy: true
+enableStructuredBreadcrumbs: false
+replyByEmail: false
+disableImageOptimization: false
+disableImageOptimizationMD: false
+disableTextInHeader: true
+hotlinkFeatureImage: false
+fingerprintAlgorithm: sha512
+giteaDefaultServer: 'https://git.fsfe.org'
+forgejoDefaultServer: 'https://v11.next.forgejo.org'
+
+mainSections: ['posts', 'resources', 'projects']
+
+search:
+  enable: true
+  type: fuse
+
+author:
+  name: Pedro Sousa
+  image: img/author.png
+  headline: Senior iOS Engineer | Apple Developer Academy Alumni
+  links:
+    - github: https://github.com/pedro0x53
+    - linkedin: https://linkedin.com/in/pedro0x53
+    - medium: https://medium.com/@pedro0x53
+    - email: mailto:sousa.pedro0x53@gmail.com
+
+header:
+  layout: fixed-fill-blur
+
+footer:
+  showMenu: true
+  showCopyright: true
+  showThemeAttribution: true
+  showAppearanceSwitcher: true
+  showScrollToTop: true
+
+homepage:
+  layout: profile
+  showRecent: true
+  showRecentItems: 6
+  showMoreLink: false
+  showMoreLinkDest: /posts/
+  cardView: true
+  cardViewScreenWidth: false
+  layoutBackgroundBlur: false
+  disableHeroImageFilter: false
+
+article:
+  search: true
+  showDate: true
+  showViews: false
+  showLikes: false
+  showDateOnlyInArticle: false
+  showDateUpdated: true
+  showAuthor: true
+  showHero: false
+  layoutBackgroundBlur: true
+  layoutBackgroundHeaderSpace: true
+  showBreadcrumbs: false
+  showDraftLabel: true
+  showEdit: false
+  editAppendPath: true
+  seriesOpened: false
+  showHeadingAnchors: true
+  showPagination: true
+  invertPagination: false
+  showReadingTime: true
+  showTableOfContents: true
+  showTaxonomies: true
+  showCategoryOnly: false
+  showAuthorsBadges: false
+  showWordCount: true
+  sharingLinks:
+    - linkedin
+    - twitter
+    - bluesky
+    - mastodon
+    - reddit
+    - pinterest
+    - facebook
+    - email
+    - whatsapp
+    - telegram
+    - line
+  showZenMode: true
+
+list:
+  showHero: false
+  layoutBackgroundBlur: true
+  layoutBackgroundHeaderSpace: true
+  showBreadcrumbs: false
+  showSummary: false
+  showViews: false
+  showLikes: false
+  showTableOfContents: false
+  showCards: true
+  orderByWeight: false
+  groupByYear: false
+  cardView: true
+  cardViewScreenWidth: false
+  constrainItemsWidth: false
+
+sitemap:
+  excludedKinds:
+    - taxonomy
+    - term
+taxonomy:
+  showTermCount: true
+  showHero: false
+  showBreadcrumbs: false
+  showViews: false
+  showLikes: false
+  showTableOfContents: false
+  cardView: false
+term:
+  showHero: false
+  showBreadcrumbs: false
+  showViews: false
+  showLikes: false
+  showTableOfContents: true
+  groupByYear: false
+  cardView: false
+  cardViewScreenWidth: false
