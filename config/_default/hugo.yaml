@@ -1,6 +1,7 @@
 theme: blowfish
 baseURL: 'https://x53.studio/'
 title: X53 Studio
+googleAnalytics: G-00DJ4XW7K6
 defaultContentLanguage: en
 pluralizeListTitles: 'true'
 enableRobotsTXT: true
